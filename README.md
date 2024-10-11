@@ -2,8 +2,6 @@
 
 Speech Emotion Recognition (SER) bertujuan untuk mengenali dan mengklasifikasikan emosi yang terdapat pada suara manusia. Proyek ini mengimplementasikan tiga model deep learning: Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), dan kombinasi Convolutional-LSTM (CLSTM) untuk melakukan klasifikasi emosi berdasarkan data suara.
 
-## Deskripsi Proyek
-
 Proyek ini mengeksplorasi tiga model deep learning (CNN, LSTM, dan CLSTM) untuk melakukan klasifikasi emosi suara manusia. Dataset dilatih dengan rasio train-test sebesar 3:1 menggunakan 40 epoch. Evaluasi dilakukan dengan *classification report* dari *scikit-learn*, yang mencakup metrik akurasi, presisi, *recall*, dan *f1-score*. 
 
 Hasil akhir dari evaluasi menunjukkan bahwa model CLSTM memberikan hasil terbaik dengan akurasi 83%, sedangkan model LSTM menghasilkan akurasi terendah yaitu 72%. Semua model berhasil mencapai performa rata-rata di atas 70%, dengan detail metrik bervariasi antara 66% hingga 90% pada setiap emosi yang diujicobakan.
